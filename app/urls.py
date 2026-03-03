@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views  # bu sizning views.py dan oladi
+from . import views
 
 urlpatterns = [
-    path('', views.index_page, name='index.html'),  # home_page view chaqiriladi
+    path('', views.home_page, name='home')
 ]
